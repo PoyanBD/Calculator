@@ -1,30 +1,40 @@
-﻿using System;
+﻿using Operation.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Online_Calculator.Controllers
+namespace Operation.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController: Controller
     {
+        [HttpGet]
         public ActionResult Index()
         {
             return View();
         }
-
-        public ActionResult About()
+        [HttpPost]
+        public ActionResult Index(OperationViewModel model, string command)
         {
-            ViewBag.Message = "Your application description page.";
+            if (command == "add")
+            {
+                model.Resualt = model.A + model.B;
+            }
+            if (command == "sub")
+            {
+                model.Resualt = model.A - model.B;
+            }
+            if (command == "mul")
+            {
+                model.Resualt = model.A * model.B;
+            }
+            if (command == "div")
+            {
+                model.Resualt = model.A / model.B;
+            }
+            return View(model);
 
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
         }
     }
 }

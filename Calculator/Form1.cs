@@ -90,20 +90,33 @@ namespace Calculator
         private void button0_Click(object sender, EventArgs e)
         {
             this.textBox1.Text = "";
-            input += "0";
+            if (input.ToString() == "")
+            {
+                this.textBox1.Text = "0";
+            }
+            else
+            {
+                input += "0";
+            }
             this.textBox1.Text += input;
         }
 
         private void buttondot_Click(object sender, EventArgs e)
         {
             this.textBox1.Text = "";
-            input += ",";
+
+            if (input.ToString() == "") { input += "0,"; }
+            if (input.ToString().Contains(",")) { }
+            else
+            {
+                input += ",";
+            }
             this.textBox1.Text += input;
         }
 
         private void buttonclear_Click(object sender, EventArgs e)
         {
-            this.textBox1.Text = "";
+            this.textBox1.Text = "0";
             this.input = string.Empty;
             this.operand1 = string.Empty;
             this.operand2 = string.Empty;

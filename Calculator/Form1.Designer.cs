@@ -51,7 +51,8 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.Location = new System.Drawing.Point(23, 66);
@@ -64,7 +65,8 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.Location = new System.Drawing.Point(69, 66);
@@ -77,7 +79,8 @@
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.Location = new System.Drawing.Point(115, 66);
@@ -90,7 +93,8 @@
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.Location = new System.Drawing.Point(23, 105);
@@ -103,7 +107,8 @@
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
             this.button5.Location = new System.Drawing.Point(69, 105);
@@ -116,7 +121,8 @@
             // 
             // button6
             // 
-            this.button6.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button6.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.Location = new System.Drawing.Point(115, 105);
@@ -129,7 +135,8 @@
             // 
             // button7
             // 
-            this.button7.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
             this.button7.Location = new System.Drawing.Point(23, 144);
@@ -142,7 +149,8 @@
             // 
             // button8
             // 
-            this.button8.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button8.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
             this.button8.Location = new System.Drawing.Point(69, 144);
@@ -155,7 +163,8 @@
             // 
             // button9
             // 
-            this.button9.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button9.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
             this.button9.Location = new System.Drawing.Point(115, 144);
@@ -168,7 +177,8 @@
             // 
             // buttondot
             // 
-            this.buttondot.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttondot.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttondot.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttondot.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttondot.Image = ((System.Drawing.Image)(resources.GetObject("buttondot.Image")));
             this.buttondot.Location = new System.Drawing.Point(23, 183);
@@ -181,7 +191,8 @@
             // 
             // button0
             // 
-            this.button0.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button0.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button0.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button0.Image = ((System.Drawing.Image)(resources.GetObject("button0.Image")));
             this.button0.Location = new System.Drawing.Point(69, 183);
@@ -194,7 +205,8 @@
             // 
             // buttonclear
             // 
-            this.buttonclear.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonclear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonclear.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonclear.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonclear.Image = ((System.Drawing.Image)(resources.GetObject("buttonclear.Image")));
             this.buttonclear.Location = new System.Drawing.Point(115, 183);
@@ -207,7 +219,8 @@
             // 
             // buttonadd
             // 
-            this.buttonadd.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonadd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonadd.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonadd.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonadd.Image = ((System.Drawing.Image)(resources.GetObject("buttonadd.Image")));
             this.buttonadd.Location = new System.Drawing.Point(171, 66);
@@ -220,7 +233,8 @@
             // 
             // buttonmin
             // 
-            this.buttonmin.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonmin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonmin.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonmin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonmin.Image = ((System.Drawing.Image)(resources.GetObject("buttonmin.Image")));
             this.buttonmin.Location = new System.Drawing.Point(171, 105);
@@ -233,7 +247,8 @@
             // 
             // buttonmul
             // 
-            this.buttonmul.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonmul.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonmul.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonmul.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonmul.Image = ((System.Drawing.Image)(resources.GetObject("buttonmul.Image")));
             this.buttonmul.Location = new System.Drawing.Point(171, 144);
@@ -246,7 +261,8 @@
             // 
             // buttondiv
             // 
-            this.buttondiv.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttondiv.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttondiv.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttondiv.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttondiv.Image = ((System.Drawing.Image)(resources.GetObject("buttondiv.Image")));
             this.buttondiv.Location = new System.Drawing.Point(171, 183);
@@ -259,7 +275,8 @@
             // 
             // buttoneq
             // 
-            this.buttoneq.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttoneq.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttoneq.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttoneq.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttoneq.Image = ((System.Drawing.Image)(resources.GetObject("buttoneq.Image")));
             this.buttoneq.Location = new System.Drawing.Point(23, 222);
@@ -272,10 +289,13 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Bodoni MT", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(23, 17);
+            this.textBox1.AllowDrop = true;
+            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(23, 18);
+            this.textBox1.MaxLength = 14;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(188, 35);
+            this.textBox1.Size = new System.Drawing.Size(188, 36);
             this.textBox1.TabIndex = 17;
             // 
             // Calculator
@@ -302,6 +322,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Calculator";

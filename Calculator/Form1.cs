@@ -22,7 +22,7 @@ namespace Calculator
         public Calculator()
         {
             InitializeComponent();
-        }
+        } 
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -128,7 +128,7 @@ namespace Calculator
             operation = '+';
             input = string.Empty;
         }
-
+        
         private void buttonmin_Click(object sender, EventArgs e)
         {
             operand1 = input;
@@ -188,7 +188,6 @@ namespace Calculator
             this.input = string.Empty;
             this.operand1 = string.Empty;
             this.operand2 = string.Empty;
-
         }
     }
 }

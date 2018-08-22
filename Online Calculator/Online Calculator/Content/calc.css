@@ -1,0 +1,17 @@
+body{
+	background: #000000;
+	background: -moz-linear-gradient(top, #000000 0%, #737373 47%, #000000 100%);
+	background: -webkit-linear-gradient(top, #000000 0%, #737373 47%, #000000 100%);
+	background: linear-gradient(to bottom, #000000 0%, #737373 47%, #000000 100%);
+}
+.textbox >input {
+	font-size:19px;
+	width:190px;
+	margin-top:5px;
+}
+.keys {
+	margin-top:10px;
+}
+.keys p>img{
+	margin-right:6.5px;
+}
